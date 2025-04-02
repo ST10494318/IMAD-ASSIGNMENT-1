@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IMAD_TASK</string>
+    <string name="hera_s_app">HERA\'S APP</string>
+    <string name="show">SHOW</string>
+    <string name="reset">RESET</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+</resources>

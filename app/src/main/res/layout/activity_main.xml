@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="137dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/show"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/resetButton"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="143dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="372dp"
+        android:layout_height="71dp"
+        android:background="@color/white"
+        android:text="@string/hera_s_app"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        tools:ignore="MissingConstraints,TextSizeCheck,UnknownId"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="365dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="324dp"
+        android:background="@color/white"
+        android:shadowColor="@color/black"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textColor="#039BE5"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="23dp"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="342dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="220dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="34dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
