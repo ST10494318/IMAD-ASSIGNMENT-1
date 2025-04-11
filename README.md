@@ -38,7 +38,9 @@ Runs tests (unit tests for meal logic
 
 8)The app offers time-based meal suggestions with a user-friendly interface (input field, suggestion display, reset button), reliable meal logic, and error handling for invalid inputs.
 
-
-
-
+Pictures:
+![alt text](https://github.com/ST10494318/IMAD-ASSIGNMENT-1/blob/2265f29315d97abab2076284d1b5fb494ae213e7/user%20interface.png)
+![alt text](https://github.com/ST10494318/IMAD-ASSIGNMENT-1/blob/2265f29315d97abab2076284d1b5fb494ae213e7/main%20activity%20code.png)
+![alt text](https://github.com/ST10494318/IMAD-ASSIGNMENT-1/blob/2265f29315d97abab2076284d1b5fb494ae213e7/andriod.yml%20code.png)
+![alt text](https://github.com/ST10494318/IMAD-ASSIGNMENT-1/blob/2265f29315d97abab2076284d1b5fb494ae213e7/andriod%20tesst%20code.png)
  
